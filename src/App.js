@@ -9,7 +9,11 @@ class App extends Component {
     this.state = {
       options: {
         chart: {
-          id: "radar"
+          id: "radar",
+          //hides ability to download chart
+          toolbar: {
+            show: false
+          }
         },
         plotOptions: {
           radar: {
@@ -43,11 +47,11 @@ class App extends Component {
       series: [
         {
           name: "IBM Average",
-          data: [30, 40, 45, 50, 49, 150, 70],
+          data: [30, 40, 45, 50, 20, 100, 70],
         },
         {
           name: "Your Team",
-          data: [10, 80, 90, 35, 80, 10, 5],
+          data: [40, 80, 90, 35, 80, 20, 20],
         }
       ]
     };
