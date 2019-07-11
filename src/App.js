@@ -6,7 +6,8 @@ function App() {
 
   return (
     <div>
-      <Radar></Radar>
+      <h1>Diversity Radar Graph</h1>
+      <Radar className='Radar'></Radar>
     </div>
   );
 }
