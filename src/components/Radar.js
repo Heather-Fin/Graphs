@@ -28,6 +28,15 @@ class Radar extends Component {
               }
             }
           },
+          title: {
+            text: 'Diversity Radar Graph',
+            align: 'left',
+            floating: false,
+            style: {
+              fontSize: '20px',
+              color:  '#171717'
+            },
+          },
           colors: ['#a66efa', '#ee538b', '#6ea6ff'],
           markers: {
             size: 0,
@@ -37,6 +46,25 @@ class Radar extends Component {
           },
           fill: {
             opacity: 0.5
+          },
+          dataLabels: {
+            style: {
+                fontSize: '12px',
+                colors: ['#171717']
+            }
+          },
+          legend: {
+            position: 'bottom',
+            horizontalAlign: 'center',
+            fontSize: '14px',
+            markers: {
+              width: 14,
+              height: 14,
+              radius: 2
+            },
+            onItemClick: {
+              toggleDataSeries: false
+            } 
           },
           xaxis: {
             categories: ['Gender', 'Race', 'Accessibility', 'Education', 'Economic Background', 'Country of Origin', 'Sexual Identity']

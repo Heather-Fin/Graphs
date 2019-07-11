@@ -6,8 +6,11 @@ function App() {
 
   return (
     <div>
-      <h1>Diversity Radar Graph</h1>
-      <Radar className='Radar'></Radar>
+      <div className='hero'>
+        <h1>Project Divergent</h1>
+        <p className='hero-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <Radar></Radar>
     </div>
   );
 }
