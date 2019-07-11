@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
+import '../../node_modules/@ibm/plex/css/ibm-plex.css';
 
 class Radar extends Component {
 
@@ -12,7 +13,8 @@ class Radar extends Component {
             //hides ability to download chart
             toolbar: {
               show: false
-            }
+            },
+            fontFamily: 'IBM Plex Sans Condensed, Helvetica Neue, Arial, sans-serif'
           },
           plotOptions: {
             radar: {
@@ -28,7 +30,7 @@ class Radar extends Component {
           },
           colors: ['#a66efa', '#ee538b', '#6ea6ff'],
           markers: {
-            size: 0
+            size: 0,
           },
           stroke: {
             width: 2

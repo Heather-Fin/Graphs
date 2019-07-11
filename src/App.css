@@ -1,10 +1,17 @@
 @import '../node_modules/@ibm/plex/css/ibm-plex.css';
+/*
+font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
+font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+*/
+
 .App {
   text-align: center;
 }
 
 h1 {
-  color: #0062ff;
+  color: #171717;
   text-align: center;
   font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
 }
