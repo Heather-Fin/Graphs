@@ -9,16 +9,16 @@ class App extends Component {
     this.state = {
       options: {
         chart: {
-          id: "basic-bar"
+          id: "radar"
         },
         xaxis: {
-          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+          categories: ['Gender', 'Race', 'Accessibility', 'Education', 'Economic Background', 'Country of Origin', 'Sexual Identity']
         }
       },
       series: [
         {
           name: "series-1",
-          data: [30, 40, 45, 50, 49, 60, 70, 91]
+          data: [30, 40, 45, 50, 49, 60, 70]
         }
       ]
     };
@@ -31,8 +31,8 @@ class App extends Component {
             <Chart
               options={this.state.options}
               series={this.state.series}
-              type="bar"
-              width="500"
+              type="radar"
+              width="600"
             />
           </div>
         </div>
