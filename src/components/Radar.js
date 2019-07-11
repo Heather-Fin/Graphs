@@ -31,7 +31,7 @@ class Radar extends Component {
           title: {
             text: 'Diversity Radar Graph',
             align: 'left',
-            floating: false,
+            offsetX: 30,
             style: {
               fontSize: '20px',
               color:  '#ffffff'
@@ -55,7 +55,9 @@ class Radar extends Component {
           },
           legend: {
             position: 'bottom',
-            horizontalAlign: 'center',
+            horizontalAlign: 'left',
+            offsetX: 20,
+            offsetY: 0,
             fontSize: '14px',
             labels: {
               colors: ['#ffffff'],
