@@ -17,8 +17,12 @@ class App extends Component {
       },
       series: [
         {
-          name: "series-1",
+          name: "IBM Average",
           data: [30, 40, 45, 50, 49, 60, 70]
+        },
+        {
+          name: "Your Team",
+          data: [10, 80, 90, 35, 80, 10, 5]
         }
       ]
     };
