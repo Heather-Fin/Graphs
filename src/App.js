@@ -11,18 +11,43 @@ class App extends Component {
         chart: {
           id: "radar"
         },
+        plotOptions: {
+          radar: {
+            polygons: {
+              //Graph colors
+              strokeColors: '#e8e8e8',
+              connectorColors: '#e8e8e8',
+              fill: {
+                colors: undefined
+              }
+            }
+          }
+        },
+        colors: ['#a66efa', '#ee538b', '#6ea6ff'],
+        markers: {
+          size: 0
+        },
+        stroke: {
+          width: 2
+        },
+        fill: {
+          opacity: 0.5
+        },
         xaxis: {
           categories: ['Gender', 'Race', 'Accessibility', 'Education', 'Economic Background', 'Country of Origin', 'Sexual Identity']
+        },
+        yaxis: {
+          show: false
         }
       },
       series: [
         {
           name: "IBM Average",
-          data: [30, 40, 45, 50, 49, 60, 70]
+          data: [30, 40, 45, 50, 49, 150, 70],
         },
         {
           name: "Your Team",
-          data: [10, 80, 90, 35, 80, 10, 5]
+          data: [10, 80, 90, 35, 80, 10, 5],
         }
       ]
     };
