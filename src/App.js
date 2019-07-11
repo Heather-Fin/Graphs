@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Radar from './components/Radar';
+import Button from './components/Button';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <p className='hero-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div className='radar'><Radar></Radar></div>
+      <Button></Button>
     </div>
   );
 }
