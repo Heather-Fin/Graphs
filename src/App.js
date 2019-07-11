@@ -10,7 +10,7 @@ function App() {
         <h1>Project Divergent</h1>
         <p className='hero-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-      <Radar></Radar>
+      <div className='radar'><Radar></Radar></div>
     </div>
   );
 }

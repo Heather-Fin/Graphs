@@ -34,7 +34,7 @@ class Radar extends Component {
             floating: false,
             style: {
               fontSize: '20px',
-              color:  '#171717'
+              color:  '#ffffff'
             },
           },
           colors: ['#a66efa', '#ee538b', '#6ea6ff'],
@@ -50,13 +50,16 @@ class Radar extends Component {
           dataLabels: {
             style: {
                 fontSize: '12px',
-                colors: ['#171717']
+                colors: ['#ffffff']
             }
           },
           legend: {
             position: 'bottom',
             horizontalAlign: 'center',
             fontSize: '14px',
+            labels: {
+              colors: ['#ffffff'],
+            },
             markers: {
               width: 14,
               height: 14,
